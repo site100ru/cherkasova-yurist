@@ -1,0 +1,13 @@
+﻿h2 { text-align: center; }
+
+#main-adm {
+	min-height: 100vh;
+}
+
+#main-adm .card .form-control {
+	max-width: 250px;
+}
+
+@media screen and (max-width: 575px) {
+	#navbar-title { display: none; }
+}

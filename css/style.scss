@@ -1,0 +1,133 @@
+﻿p { font-size: 1.125rem; }
+
+.nav-link{ font-size: .85rem; }
+
+#logo {
+	line-height: 1.125rem;
+}
+
+#logo-img {
+	width: 52px;
+}
+
+#nav-number {
+	font-size: 1.25rem;
+	font-weight: 500;
+	position: relative;
+	top: 3px;
+}
+
+.overlay-gradient {
+	background: linear-gradient(to right, rgba(0,0,0,0), #343a40);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.overlay-dark {
+	background: #343a40;
+	opacity: .85;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.overlay {
+	background: #343a40;
+	opacity: .75;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+	
+#main {
+	background: url(../img/main-bg.jpg) center;
+	background-size: cover;
+	position: relative; }
+
+#first-block {
+	ul {
+		list-style: none;
+		font-size: 1.125rem;
+	}
+}
+
+
+#people-sevices, #company-sevices, #complementary-sevices {
+	p, li { font-size: 1.125rem; }
+	min-height: 75vh;
+	.card {
+		background-position: center;
+		background-size: cover!important;
+		.card-body { position: relative; }
+		.card-title { min-height: 75px; }
+	}
+}
+
+#client-feedback{
+	
+	.zoom {
+		overflow: hidden;
+	}
+
+	.zoom img {
+		cursor: pointer;
+		max-width: 100%;
+		-moz-transition: all 5s ease-out;
+		-o-transition: all 5s ease-out;
+		-webkit-transition: all 5s ease-out;
+	 }
+	 
+	.zoom img:hover {
+		-webkit-transform: scale(1.25);
+		-moz-transform: scale(1.25);
+		-o-transform: scale(1.25);
+	}
+
+}
+
+#paerners .card {
+	p { font-size: 1rem; }
+}
+
+#contacts {
+	background: url(../img/main-bg.jpg) center;
+	background-size: cover;
+	position: relative; }
+
+#info li a {
+	font-size: 1.25rem; }
+
+#clients img {
+	max-width: 100%; }
+	
+/* Задний фон для сообщения об успешной отправки данных */
+#background-msg {
+	background: black;
+	z-index: 5;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0.9;
+	cursor: pointer; }
+
+/* Сообщение об успешной отправке данных */	
+#message {
+	z-index: 5;
+	max-width: 450px;
+	position: fixed;
+	top: 45%;
+	left: 0%;
+	right: 0%;
+	text-align: center;
+	font-size: 130%;
+	color: white;
+	margin: auto; }

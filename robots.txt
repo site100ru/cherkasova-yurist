@@ -1,0 +1,7 @@
+﻿User-agent: *
+
+Disallow: /info-content
+
+Host: xn--62-vlc5agg7dta.xn--p1ai
+
+Sitemap: http://xn--62-vlc5agg7dta.xn--p1ai/sitemap.xml

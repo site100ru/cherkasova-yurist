@@ -1,0 +1,317 @@
+@charset "UTF-8";
+h1 { font-size: 3rem; }
+p { font-size: 1.125rem; }
+
+.nav-link {
+  font-size: .85rem; }
+
+#logo {
+  line-height: 1.125rem; }
+
+#logo-img {
+  width: 52px; }
+
+#nav-number {
+  font-size: 1.25rem;
+  font-weight: 500;
+  position: relative;
+  top: 3px; }
+
+.overlay-gradient {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), #1f497d);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
+
+.overlay-dark {
+  background: /*#343a40*/#1f497d;
+  opacity: .85;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
+
+.overlay {
+  background: /*#343a40*/#1f497d;
+  opacity: .75;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
+
+#main {
+  background: url(img/main-bg.jpg) center;
+  background-size: cover;
+  position: relative; }
+
+#first-block ul {
+  list-style: none;
+  font-size: 1.125rem; }
+
+.section-kpk {
+	background: url(img/ssud.jpg) center;
+	background-size: cover;
+}
+
+.row_shadow {
+	background: rgba(255, 225, 225, .85);
+}
+
+#people-sevices, #company-sevices, #complementary-sevices {
+  min-height: 75vh; }
+  #people-sevices p, #people-sevices li, #company-sevices p, #company-sevices li, #complementary-sevices p, #complementary-sevices li {
+    font-size: 1rem; }
+ 
+#people-sevices .card, #company-sevices .card, #complementary-sevices .card, #won-cases .card {
+    background-position: center;
+    background-size: cover !important; }
+	
+	
+    #people-sevices .card .card-body, #company-sevices .card .card-body, #complementary-sevices .card .card-body, #won-cases .card .card-body {
+      position: relative; }
+	  
+    #people-sevices .card .card-title, #company-sevices .card .card-title, #complementary-sevices .card .card-title, #won-cases .card .card-title {
+      min-height: 75px; }
+
+.client-feedback .zoom {
+  overflow: hidden; }
+.client-feedback .zoom img {
+  cursor: pointer;
+  max-width: 100%;
+  -moz-transition: all 5s ease-out;
+  -o-transition: all 5s ease-out;
+  -webkit-transition: all 5s ease-out; }
+.client-feedback .zoom img:hover {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25); }
+
+#paerners .card p {
+  font-size: 1rem; }
+
+#contacts {
+  background: url(img/main-bg.jpg) center;
+  background-size: cover;
+  position: relative; }
+
+#info li a {
+  font-size: 1rem; }
+
+#clients img {
+  max-width: 100%; }
+
+/* Задний фон для сообщения об успешной отправки данных */
+#background-msg {
+  background: black;
+  z-index: 5;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.9;
+  cursor: pointer; }
+
+/* Сообщение об успешной отправке данных */
+#message {
+  z-index: 5;
+  max-width: 450px;
+  position: fixed;
+  top: 45%;
+  left: 0%;
+  right: 0%;
+  text-align: center;
+  font-size: 130%;
+  color: white;
+  margin: auto; }
+
+.serviceContent p, .serviceContent li, .partners p, .classp {
+	color: #1f497d!important;
+	font-size: 12pt!important;
+	font-family: Times New Roman, serif!important;
+	text-align: justify!important;
+	line-height: 1.5!important;
+}
+/*new style*/
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+}
+.top-contacts {
+    margin-top: 40px;
+}
+.top-contacts img {
+    margin-right: 12px;
+}
+.top-contacts a {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+}
+a.top-phone{
+	border-left: 1px solid #C79E7C;
+    border-right: 1px solid #C79E7C;
+}
+a.call-back {
+    border: 1px solid #C79E7C;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 9px 20px;
+    font-size: 14px;
+	margin-top: -7px;
+	transition: .25s;
+}
+a.call-back:hover, a.consultation:hover, button.consultation:hover {
+    text-decoration: none;
+    cursor: pointer;
+	transition: .25s;
+}
+section#main-screen h1, section#main-screen h2 {
+    font-size: 36px;
+    color: #fff;
+    font-family: Georgia;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;    
+}
+section#main-screen h1 {
+    margin-top: 20px;
+    background: #020100;
+    border: 1px solid #C79E7C;
+    box-sizing: border-box;
+    border-radius: 65px;
+    padding: 45px 28px;
+}
+section#main-screen h2 {
+    background: #000;
+    margin: -29px auto 0;
+    width: 135px;
+    display: block;
+}
+section#main-screen p {
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+a.consultation, button.consultation {
+    font-family: Georgia;
+    font-size: 22px;
+    background: #1256DB;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    padding: 25px;
+    color: #fff;
+    text-align: center;
+    margin: 25px auto;
+	transition: .25s;
+}
+a.consultation:hover, button.consultation:hover {
+    cursor: pointer;
+    background: #083794;
+	transition: .25s;
+}
+a.consultation:focus, button.consultation:focus{
+    cursor: pointer;
+    box-shadow: 0 0 0 0.2rem rgb(18,86,219,.5);
+	transition: .25s;
+}
+a.call-back:hover {
+    background: #C79E7C;
+	transition: .25s;
+}
+
+
+
+.modal-dialog button.consultation.d-block {
+    max-width: 400px;
+    padding: 8px 44px;
+    border: 0;
+}
+.icons {
+    margin: 20px 0;
+}
+.icons a img {
+    margin-right: 35px;
+}
+.icons a:hover {
+    opacity: 0.8;
+}
+.wrapper-adv {
+    text-align: center;
+    border: 1px solid #1256DB;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin: 50px auto;
+    padding: 40px 30px 30px;
+	position: relative;
+}
+.wrapper-adv img {
+    position: absolute;
+    top: -25px;
+    left: 117px;
+	background: #fff;
+    padding: 0 20px;
+}
+.wrapper-adv p {
+    line-height: 1;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+}
+.won-case {
+    width: 100%;
+}
+@media screen and (max-width: 1200px) {
+.wrapper-adv {
+    width: 270px;
+}
+.wrapper-adv img {
+    left: 77px;
+}
+}
+
+@media screen and (max-width: 995px){
+.wrapper-adv {
+    width: 220px;
+}
+.wrapper-adv img {
+    left: 53px;
+}
+}
+@media screen and (max-width: 755px) {
+.wrapper-adv {
+    width: 325px;
+}
+.wrapper-adv img {
+    left: 103px
+}
+}
+@media screen and (max-width: 575px) {
+	h1 { font-size: 2rem; }
+	.top-contacts a, .top-contacts p {
+    font-size: 15px;
+	text-align: center;
+}
+a.call-back {
+    margin: 20px auto;
+}
+a.top-phone {
+    border: none;
+    margin-bottom: 15px;
+}
+}
+
