@@ -51,7 +51,7 @@
 <div id="map" class="container-fluid">
 	<div class="row">
 		<div class="col p-0">					
-			<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A5c359fe65824cd01a24826d4e1253003a9767fca8db30be3e855cc84ecfe9983&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=false"></script>
+			<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A9ada45036c52eb31a2a2bbe5731a18c33040e49a11405a20107c76fd8cd68b6a&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=false"></script>
 		</div>
 	</div>
 </div>
