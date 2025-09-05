@@ -36,7 +36,7 @@ $record = mysqli_fetch_assoc($result);
 	<meta property="og:locale" content="ru_RU" />
 	<meta property="og:type" content="website" />
 	<meta property="og:site_name" content="Юридические услуги в Рязани" />
-	<meta property="og:title" content="<?php echo esc_attr($page_title); ?>" />
+	<meta property="og:title" content="<?php wp_title(''); ?>" />
 	<meta property="og:image" content="http://черкасова-юрист.рф/img/review.jpg" />
 	<meta property="og:url" content="http://черкасова-юрист.рф/index.php" />
 	<!--<link rel="canonical" href="http://юристы62.рф" />-->
@@ -52,7 +52,7 @@ $record = mysqli_fetch_assoc($result);
 	<!-- Font Awesome-->
 	<script src="https://kit.fontawesome.com/064ae6a0a2.js"></script>
 	
-	<title><?php echo esc_html($page_title); ?></title>
+	<title><?php wp_title(''); ?></title>
 	<!-- Yandex.Metrika counter >
 		<script type="text/javascript" >
 		   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
