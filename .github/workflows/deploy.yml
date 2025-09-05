@@ -1,4 +1,4 @@
-name: Deploy мозаика62.рф
+name: Deploy черкасова-юрист.рф
 
 on:
   push:
@@ -15,8 +15,8 @@ jobs:
           username: ${{ secrets.REGRU_USER }}
           key: ${{ secrets.REGRU_KEY }}
           script: |
-            cd /var/www/u1538455/data/www/черкасова-юрист.рф/wp-content/themes/cherkasova-yurist
-            git clone git@github.com:site100ru/cherkasova-yurist.git .
-            
             #cd /var/www/u1538455/data/www/черкасова-юрист.рф/wp-content/themes/cherkasova-yurist
-            #git pull
+            #git clone git@github.com:site100ru/cherkasova-yurist.git .
+            
+            cd /var/www/u1538455/data/www/черкасова-юрист.рф/wp-content/themes/cherkasova-yurist
+            git pull
