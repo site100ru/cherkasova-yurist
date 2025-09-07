@@ -76,7 +76,7 @@ $record = mysqli_fetch_assoc($result);
 		<div class="row align-items-center justify-content-center pt-3 pb-3">
 			<div id="logo" class="col-md-3 text-center">
 				<!--span class="float-left mr-2"><img id="logo-img" src="img/ico/logo-white.png"></span-->
-				<span class="font-italic">ООО ЮК</span><br>
+				<span class="font-italic">ИП</span><br>
 				<span class="font-italic text-uppercase">"Черкасова и партнеры"</span><br>
 			</div>
 		</div>

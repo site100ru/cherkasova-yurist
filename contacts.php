@@ -66,8 +66,8 @@
 		<div class="row justify-content-center align-items-center">
 			<div class="col-md-6 mb-4">
 				<ul class="classp" style="text-align: center; list-style: none;">
-					<li>ООО ЮК</li>
-					<li>ИП Черкасова Лилия Сергеевна</li>
+					<li>ИП</li>
+					<li>Черкасова Лилия Сергеевна</li>
 					<li>ОГРН 323623400016238</li>
 				</ul>
 			</div>
