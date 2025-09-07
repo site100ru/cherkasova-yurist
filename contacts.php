@@ -25,7 +25,7 @@
 	<div class="container">
 		<div class="row justify-content-center align-items-center">
 			<div class="col-md-6 mb-4">
-				<p class="classp">Мы ждем Вас по адресу: <strong>г. Рязань, ул. Чапаева, дом 57, офис 3</strong></p>
+				<p class="classp">Мы ждем Вас по адресу: <strong>Рязанская область, г. Рязань</strong></p>
 				<p class="classp">Вы можете связаться с нами (в том числе предварительно записаться на прием) удобным для Вас способом - по телефону, с помощью обратной связи на сайте либо по электронной почте.</p>
 			</div>
 			<div class="col-md-6 mb-4">
@@ -67,15 +67,15 @@
 			<div class="col-md-6 mb-4">
 				<ul class="classp" style="text-align: center; list-style: none;">
 					<li>ООО ЮК</li>
-					<li>"Черкасова и партнеры"</li>
-					<li>ОГРН 1196234010972</li>
+					<li>ИП Черкасова Лилия Сергеевна</li>
+					<li>ОГРН 323623400016238</li>
 				</ul>
 			</div>
 			<div class="col-md-6 mb-4">
 				<ul class="classp" style="text-align: center; list-style: none;">
-					<li>ИНН 6215032780</li>
-					<li>КПП 621501001</li>
-					<li>Юр. адрес: г. Рязань, ул. Чапаева, дом 57, офис 3</li>
+					<li>ИНН 623105556216</li>
+					<li>ОКПО 2021831396</li>
+					<li>Юр. адрес: Рязанская область, г. Рязань</li>
 				</ul>
 			</div>
 		</div>

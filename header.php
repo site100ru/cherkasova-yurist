@@ -139,7 +139,7 @@ $record = mysqli_fetch_assoc($result);
 	<div class="container top-contacts" >
 		<div class="row">
 			<div class="col-md-4">
-				<p><img src="<?php site_url(); ?>/wp-content/themes/lawyers/img/ico/ico-map.png" />г. Рязань, ул. Чапаева, дом 57, офис 3</p>
+				<p><img src="<?php site_url(); ?>/wp-content/themes/lawyers/img/ico/ico-map.png" />Рязанская область, г. Рязань</p>
 			</div>
 			<div class="col-md-3">
 				<a href="tel:89109028564" class="top-phone"><img src="<?php site_url(); ?>/wp-content/themes/lawyers/img/ico/ico-phone.png" /> 8 (910) 902-85-64</a>

@@ -37,7 +37,7 @@
 <footer class="container-fluid" style="background: #1f497d; text-align: center; color: rgba(255,255,255,.75);">
 	<div class="row">
 		<div class="col pt-3 pb-3">
-			<p class="text-center" style="margin: 0;">ООО ЮК "Черкасова и партнеры" &#169; <?php echo date('Y'); ?> г.</p>
+			<p class="text-center" style="margin: 0;">ИП "Черкасова Лилия Сергеевна" &#169; <?php echo date('Y'); ?> г.</p>
 			<p class="text-center" style="font-size: .75rem; margin: 0;">Создание и продвижение сайтов - <a href="http://site100.ru" style=" color: rgba(255,255,255,.75);">SITE<span style="color: #dc3545;">100</span>.RU</a></p>
 		</div>
 	</div>

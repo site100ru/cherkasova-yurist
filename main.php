@@ -17,7 +17,7 @@
 				<div class="col-md-6">
 					<h1>Черкасова Лилия Сергеевна</h1>
 					<h2>Юрист</h2>
-					<p class="py-3">ДИРЕКТОР ООО ЮК «ЧЕРКАСОВА И ПАРТНЕРЫ»</p>
+					<p class="py-3">ИП «Черкасова Лилия Сергеевна</p>
 					<a class="consultation w-100 d-block text-white" data-toggle="modal" data-target="#exampleModal2">Получить консультацию</a>
 					<div class="icons">
 						<a href="https://wa.me/79109028564" onclick="ym(70333189,'reachGoal','click-whatsapp'); return true;" target="_blank"><img src="<?php site_url(); ?>/wp-content/themes/lawyers/img/ico/ico-whatsapp.png"></a>
